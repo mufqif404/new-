@@ -1,4 +1,7 @@
-@@ -5,8 +5,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
         window.ownerId = "D7kBx4vYduQ6Wk6vStENjQujoLAC1L9iN6aKDfbQFv4q"
         window.collectionId = "9Ksh1TRircF2LWnqvj8B"
     </script>
@@ -9,3 +12,21 @@
 
     <style>
         #main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #mint-counter {
+            color: wheat;
+        }
+    </style>
+</head>
+<body style="background-color: black">
+<div id="main-container">
+    <h1 style="color: white">Coolest Mint Ever</h1>
+    <!--  Mint button gets injected here  -->
+    <div id="mint-button-container"></div>
+    <div id="mint-counter"></div>
+</div>
+</body>
